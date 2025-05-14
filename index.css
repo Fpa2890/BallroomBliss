@@ -1,24 +1,105 @@
+/*fonts start here*/
+.great-vibes-regular {
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+.playfair-regular {
+    font-family: "Playfair", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+  }
+.eb-garamond-regular{
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.container {
+    display: flex;
+    vertical-align: auto;
+    justify-content: center;
+    margin: auto;
+}
+.circles {
+    height: 190px;
+    width: 190px;
+    background-color: #D4AF37;
+    border-radius: 50%;
+    margin: 25px 159px 25px;
+}
+.container2 {
+    display: flex;
+    vertical-align: auto;
+    justify-content: center;
+    margin: auto;
+}
+.rectangles {
+    height: 373px;
+    width: 408px;
+    background-color: #000000;
+    margin: 10px 50px 10px;
+}
+.rectangle1 {
+    height: 373px;
+    width: 408px;
+    opacity: 50%;
+}
+.rectangle2 {
+    height: 458px;
+    width: 408px;
+    opacity: 70%;
+}
+.rectangle3 {
+    height: 373px;
+    width: 408px;
+    opacity: 50%;
+}
+
+.container3 {
+    display: flex;
+    justify-content: center;
+    vertical-align: auto;
+    margin: auto;
+}
+.header {
+    font-family: "Playfair", serif;
+    text-align: center;
+    vertical-align: auto;
+}
+.a-1 {
+    font-size: 53px;
+    color: #06744f;
+}
+.a-2 {
+    color: #850101;
+}
+.h4-1 {
+    font-size: 42px;
+    color: #850101;
+    margin: 10px 180px 10px 180px;
+}
+.h4-2 {
+    font-size: 42px;
+    color: #850101;
+    margin: 10px 180px 10px 180px;
+}
 body {
-    font-family: "EB Garamond", serif; 
-    margin: 0;
+    margin: auto;
 }
 
 /* header stuff starts here */
 header {
     background-color: #850101;
-    padding: 1 rem 10px;
+    padding: 2rem;
 }
-header span{
-    color: #FE828C;
-    font-size: 1.6rem;
-    font-weight: 700;
-}
-
 nav li.active a {
     background-color: #850101;
     color: #FE828C;
 }
-
 nav a:hover {
     color: white;
 }
@@ -27,22 +108,11 @@ nav a:hover {
 main {
     padding: 1rem 10 px;
 }
-
 main li.active a{
     color:#FE828C;
     font-weight:32px;
     font-family: "EB Garamond", serif;
-    font-weight: normal;
 }
-main a.hover {
-    color: #000000;
-}
-.great-vibes-regular {
-    font-family: "Great Vibes", cursive;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
 main h1{
     font-family: "Great Vibes", cursive;
     font-size: 4rem;
@@ -58,45 +128,24 @@ main h2 {
     color: #000000
 }
 
-.playfair-regular {
-    font-family: "Playfair", serif;
-    font-optical-sizing: auto;
-    font-weight: 300;
-    font-style: normal;
-    font-variation-settings: "wdth" 100;
-  }
-
-main h3 {
-    font-family: "Playfair", serif;
-    font-size: 3rem;
-    color: #06744f;
-}
-main h4 {
-    font-family: "Playfair", serif;
-    font-size: 2rem;
-    color: #850101;
-}
-
-.eb-garamond-regular{
-    font-family: "EB Garamond", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-  }
-
 .para-1 {
-    margin: 0;
     color: #000000;
     font-family: "EB Garamond", serif;
     font-weight: normal;
-    font-size: 1.75em;
+    font-size: 37px;
+    text-align: center;
+    padding-right: 50px;
+    padding-left: 50px;
 }
 .para-2 {
-    margin: 0;
+    margin: auto;
     color: #FFFFF0;
     font-family: "EB Garamond", serif;
-    font-size: 1.25rem;
+    font-size: 26px;
     text-align: center;
+    width: 50%;
+    position: relative;
+    top: -413px;
 }
 .para-3 {
     margin:0;
@@ -112,11 +161,8 @@ main h4 {
     font-size: 1.25 rem;
     text-align: right;
 }
-main a {
-    color:#000000;
-}
 main a:hover {
-    color: #FFFFF0;
+    color: #FE828C;
 }
 
 /* footer stuff here */
@@ -128,6 +174,6 @@ footer {
     color: #000000;
     letter-spacing: 3px;
 }
-footer p{
-    margin: 0;
+footer p {
+    margin:0;
 }
