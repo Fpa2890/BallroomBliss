@@ -1,3 +1,4 @@
+
 /*fonts start here*/
 .great-vibes-regular {
     font-family: "Great Vibes", cursive;
@@ -20,7 +21,7 @@
 .container {
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 250px;
 }
 .wrapper {
     position: relative;
@@ -41,6 +42,7 @@
     width: 408px;
     background-color: #000000;
     z-index: 0;
+
     
     display: flex;
     flex-direction: column;
@@ -112,7 +114,7 @@ body {
     color: #FFFFF0;
 }
 .logo-space {
-    width: 187px
+    width: 187px;
     height: 100%;
     max-height: 174px;
     display: flex;
@@ -130,7 +132,8 @@ nav a:hover {
 
 /* main stuff here */
 main {
-    padding: 1rem 10 px;
+    flex: 1;
+    padding: 1rem 10px;
 }
 main li.active a{
     color:#FE828C;
@@ -177,18 +180,23 @@ main h2 {
     color:#850101;
 }
 main a:hover {
-    color: #FE828C;
+    color: #FE828C; 
 }
-
+html, body {
+    height: 100%;
+    margin: 0;
+}
+.wrapper1 {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
 /* footer stuff here */
 footer {
     background-color: #FFFFFF;
     text-align: left;
-    padding: 1 rem 0;
-    font-size: .8rem;
-    color: #000000;
-    letter-spacing: 3px;
+    padding: 10px;
 }
 footer p {
-    margin:0;
+    margin: 0;
 }
