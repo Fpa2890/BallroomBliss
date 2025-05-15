@@ -38,6 +38,8 @@ main h1{
     text-align: left;
     font-style: bold;
     color: #FE828C;
+    margin-top: 50px;
+    margin-bottom: -100px;
 }
 
 .playfair-regular {
@@ -129,7 +131,7 @@ main a.hover {
 main a {
     color: #FFFFFF;
 }
-.rectangle {
+.rect {
     width: 513px;
     height: 513px;
     background-color: #D4AF37;
